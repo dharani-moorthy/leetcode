@@ -1,9 +1,4 @@
-class Solution(object):
-    def getSum(self, a, b):
-        """
-        :type a: int
-        :type b: int
-        :rtype: int
-        """
+class Solution:
+    def getSum(self, a: int, b: int) -> int:
         return a+b
         
