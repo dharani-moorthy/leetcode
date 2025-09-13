@@ -9,7 +9,7 @@ class Solution(object):
             f=nums[i]
             m=nums[i+1]
             t=nums[i+2]
-            if f+t==m//2.0:
+            if f+t==m/2.0:
                 count+=1
         return count
             
