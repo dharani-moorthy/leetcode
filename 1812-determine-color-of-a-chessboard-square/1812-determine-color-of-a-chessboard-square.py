@@ -1,5 +1,10 @@
-class Solution:
-    def squareIsWhite(self, c: str) -> bool:
+class Solution(object):
+    def squareIsWhite(self, coordinates):
+        """
+        :type coordinates: str
+        :rtype: bool
+        """
+        c = coordinates
         if (c == "a2" or c == "a4" or c == "a6" or c == "a8" or
             c == "b1" or c == "b3" or c == "b5" or c == "b7" or
             c == "c2" or c == "c4" or c == "c6" or c == "c8" or
